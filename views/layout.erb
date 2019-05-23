@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en-US">
+<head>
+	<title>File-based CMS</title>
+	<link rel="stylesheet" type="text/css" href="/stylesheets/cms.css"/>
+</head>
+
+<body>
+	<% if session[:error] %> 
+		<p class="message"><%= session.delete(:error) %></p>
+	<% end %>
+
+	<% if session[:success] %> 
+		<p class="message"><%= session.delete(:success) %></p>
+	<% end %>
+	
+	<%= yield %>
+</body>

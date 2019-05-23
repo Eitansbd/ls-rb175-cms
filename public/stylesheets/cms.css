@@ -1,0 +1,12 @@
+body {
+	padding: 1em;
+	font-family: sans-serif;
+}
+
+.message {
+	background-color: #FFFF99
+}
+
+.success {
+	background-color: green
+}
