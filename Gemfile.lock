@@ -16,7 +16,7 @@ GEM
       rack
     rack-test (1.1.0)
       rack (>= 1.0, < 3)
-    redcarpet (3.4.0)
+    redcarpet (3.5.1)
     sinatra (2.0.5)
       mustermann (~> 1.0)
       rack (~> 2.0)
